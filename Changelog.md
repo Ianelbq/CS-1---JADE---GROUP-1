@@ -40,3 +40,18 @@ elif grade >= 72 and grade <= 78:
 elif grade >= 66 and grade <= 72:
     print("GWA: 2.25")
     print("Status: SATISFACTORY")
+elif grade >= 60 and grade <= 65:
+    print("GWA: 2.50")
+    print("Status: SATISFACTORY")
+elif grade >= 55 and grade <= 60:
+    print("GWA: 2.75")
+    print("Status: FAIR")
+elif grade >= 50 and grade <= 54:
+    print("GWA: 3.00")
+    print("Status: FAIR")
+elif grade >= 40 and grade <= 50:
+     print("GWA: 4.00")
+     print("Status: FAILED ON CONDITION")
+elif grade < 40:
+    print("GWA: 5.00")
+    print("FAILED") 
